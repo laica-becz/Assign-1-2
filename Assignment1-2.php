@@ -31,8 +31,19 @@ $total = $prep_time . " " . $serving_size;
     <title>How to make no bake Brownies</title>
 </head>
 <body>
-    
+    <?php require_once 'header.php'; ?>
+    <main>
+        <h1><?= $product_name; ?></h1>
+        <div class="information-box">
+            <p>Preparation Time: <?= $prep_time; ?></p>
+            <p>Chill Time: <?= $freeze_time; ?></p>
+            <p>Serving size: <?= $serving_size; ?></p>
+            <p>Difficulty: <?= $difficulty; ?></p>
+            <p>Ratings: <?= $ratings; ?></p>
+        </div>
+    </main>
 </body>
 
 </html>
+
 
