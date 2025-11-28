@@ -4,6 +4,10 @@ $product_name = "No Bake Brownies";
 $prep_time = "5 mins";
 $serving_size = 9;
 $difficulty = "Easy"; 
+$ratings = 5;
+$price_per_piece: 30; //pesos
+$freeze_time: 30; //minutes
+
 //indexed array
 $ingredients = ["1 cup almond butter", "1/2 cup maple syrup", "2/3 cup cocoa powder", "1 cup chocolate frosting"];
 //associative array
@@ -13,8 +17,10 @@ Add your frosting on top and refrigerate it for at least 30 minutes.", "step 4" 
 and slice and serve."];
 
 //expression and operators
-$total = $prep_time . " " . $serving_size;
+$cost = $price_per_piece * serving_size;
 
+//type juggling
+$total = $prep_time . " " . $serving_size;
 ?>
 
 <!DOCTYPE html>
@@ -29,3 +35,4 @@ $total = $prep_time . " " . $serving_size;
 </body>
 
 </html>
+
