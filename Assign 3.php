@@ -25,3 +25,16 @@ function get_tax_due(float $price, int $quantity, int $tax_rate): float {
     return ($price * $quantity) * ($tax_rate / 100);
 }
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingredients Inventory</title>
+</head>
+<body>
+  <?php require_once 'header.php'; ?>
+
+  <?php include 'footer.php'; ?>
+</body>
+</html>
