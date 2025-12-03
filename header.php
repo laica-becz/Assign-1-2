@@ -76,11 +76,12 @@
             <nav>
                 <ul>
                     <li><a href="">Home</a></li>
-                    <li><a href="">Recipes</a></li>
-                    <li><a href="">About</a></li>
+                    <li><a href="Assignment1-2.php">Recipes</a></li>
+                    <li><a href="Assign 3.php">Stock Level</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
             </nav>
     </header>
 </body>
+
 </html>
